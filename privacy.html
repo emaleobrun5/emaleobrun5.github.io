@@ -39,7 +39,7 @@
       <h2>What we store</h2>
       <ul>
         <li><strong>The authorization token</strong> issued by Google, kept on the operator's own computer or server, outside any public code repository, so uploads can run without signing in each time.</li>
-        <li><strong>A publication record:</strong> the ID, title, status and scheduled time of each video the tool uploaded, so the same video is not uploaded twice. This data is refreshed or deleted at least every 30 days, as required by the YouTube API Services policies.</li>
+        <li><strong>A publication record:</strong> for each video the tool uploaded, its ID, title, status and scheduled time, the ID of the channel that received it, the operator's internal name for that channel, the upload date and a fingerprint (SHA-256 hash) of the uploaded file, so the same video is not uploaded twice. This data is refreshed or deleted at least every 30 days, as required by the YouTube API Services policies.</li>
       </ul>
       <p>The tool does not collect data about viewers or about anyone other than the authorizing channel owner.</p>
 
@@ -90,7 +90,7 @@
       <h2>Qué guardamos</h2>
       <ul>
         <li><strong>El token de autorización</strong> que entrega Google, guardado en la computadora o el servidor del operador, fuera de cualquier repositorio de código público, para que las subidas funcionen sin iniciar sesión cada vez.</li>
-        <li><strong>Un registro de publicaciones:</strong> el ID, el título, el estado y la hora programada de cada video que subió la herramienta, para no subir dos veces el mismo. Estos datos se actualizan o se borran al menos cada 30 días, como piden las políticas de la API de YouTube.</li>
+        <li><strong>Un registro de publicaciones:</strong> de cada video que subió la herramienta, su ID, título, estado y hora programada, el ID del canal que lo recibió, el nombre interno que el operador le da a ese canal, la fecha de subida y una huella (hash SHA-256) del archivo subido, para no subir dos veces el mismo. Estos datos se actualizan o se borran al menos cada 30 días, como piden las políticas de la API de YouTube.</li>
       </ul>
       <p>La herramienta no recoge datos de los espectadores ni de nadie más que el dueño del canal que la autoriza.</p>
 
